@@ -14,12 +14,12 @@ public class ConeccionMBD {
     private JTextField nombre;
     private JTextField pasatiempo;
     private JTextField descrip;
-    private JButton button1;
+    private JButton accederboton;
     JPanel VentanaPrincipal;
     private Document documento;
 
     public ConeccionMBD() {
-        button1.addActionListener(new ActionListener() {
+        accederboton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String url = "mongodb+srv://esfot:esfot2024@cluster0.xzffuex.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
